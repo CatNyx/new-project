@@ -4,3 +4,5 @@ just another text file
 this string was added on GitHub directly
 
 new commit in branch 'new-file'
+
+some new lines for branch 'testing'
