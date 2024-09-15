@@ -10,10 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            VStack {
+            HStack {
                 Image(systemName: "arrow.left")
-                Image(systemName: "arrow.up")
-                Image(systemName: "arrow.right")
+                Image(systemName: "xmark")
             }
             .font(.system(size: 50))
             .fontWeight(.bold)
