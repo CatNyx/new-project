@@ -9,4 +9,4 @@ new commit in branch 'new-file'
 
 some new lines for branch 'testing'
 
-MERGE TOOL testing
+MERGE TOOL testing -> ONFLICT branch
