@@ -9,18 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            HStack {
-                Image(systemName: "arrow.left")
-                Image(systemName: "xmark")
+        ZStack {
+            VStack() {
+                HStack {
+                    Image(systemName: "arrow.left")
+                    Image(systemName: "xmark")
+                }
+                .font(.system(size: 50))
+                .fontWeight(.bold)
+                .foregroundStyle(.blue)
+                
+                GreetingView()
             }
-            .font(.system(size: 50))
-            .fontWeight(.bold)
-            .foregroundStyle(.blue)
 
-            GreetingView()
+            VStack {
+                Spacer()
+                MyButtonView()
+            }
+            .padding(.bottom, 50.0)
         }
-        .padding()
+
+
+
     }
 }
 
