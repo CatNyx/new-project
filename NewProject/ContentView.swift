@@ -10,6 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
+            VStack {
+                Text("This is NewProject")
+                    .font(.largeTitle)
+                    .padding(.top, 50.0)
+                Spacer()
+            }
+
             VStack() {
                 HStack {
                     Image(systemName: "arrow.left")
@@ -18,7 +25,7 @@ struct ContentView: View {
                 .font(.system(size: 50))
                 .fontWeight(.bold)
                 .foregroundStyle(.blue)
-                
+
                 GreetingView()
             }
 
@@ -28,9 +35,6 @@ struct ContentView: View {
             }
             .padding(.bottom, 50.0)
         }
-
-
-
     }
 }
 
